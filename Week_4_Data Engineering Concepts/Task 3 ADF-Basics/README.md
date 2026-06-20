@@ -1,1 +1,1 @@
-
+Created an Azure Data Factory instance, explored the Author, Monitor, and Manage sections, configured a Linked Service to Azure Blob Storage, created source and destination datasets, and implemented a Get Metadata activity to validate the source file.
