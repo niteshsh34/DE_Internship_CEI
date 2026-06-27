@@ -35,4 +35,3 @@ Since no dataset was provided, I created a custom **sales_data.csv** dataset spe
 - Spark DataFrame transformations were performed without modifying the original DataFrame, demonstrating **immutability**.
 - GroupBy operations involved **shuffle**, where Spark redistributed data across partitions to perform aggregations efficiently.
 - The final data processing pipeline successfully removed duplicates, handled missing values, transformed the schema, filtered records, and calculated total revenue by **store_id**.
-- Overall observation: **______________________________________________**
