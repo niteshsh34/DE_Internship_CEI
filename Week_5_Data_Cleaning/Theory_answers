@@ -1,50 +1,53 @@
-Q1. What are the key limitations of traditional MapReduce that make Spark a preferred choice for modern big data processing?
-Answer
-Limitations of MapReduce:
-Stores intermediate data on disk, making processing slow.
-High disk I/O operations increase execution time.
-Not suitable for iterative algorithms like Machine Learning.
-Programming model is complex and requires more code.
-Does not support real-time or interactive data processing.
-Advantages of Spark:
-Uses in-memory computing for faster execution.
-Supports real-time and batch processing.
-Easy-to-use APIs in Python, Scala, Java, and R.
-Includes libraries for SQL, Machine Learning, Graph Processing, and Streaming.
+## Theory 
+### Q1. Why is Spark preferred over MapReduce?
+**Limitations of MapReduce**
+- Stores intermediate data on disk, making execution slower.
+- High disk I/O increases processing time.
+- Not suitable for iterative tasks like Machine Learning.
+- Requires more complex code.
+- Does not support real-time or interactive processing.
+**Advantages of Spark**
+- Uses in-memory computing for faster execution.
+- Supports both batch and real-time processing.
+- Provides easy APIs in Python, Scala, Java, and R.
+- Includes built-in libraries for SQL, Machine Learning, Graph Processing, and Streaming.
 
+---
 
+### Q2. How does In-Memory Computing improve performance?
+Spark keeps intermediate data in memory (RAM) instead of writing it to disk after every step. Since Machine Learning algorithms repeatedly process 
+the same data, this reduces disk I/O and makes execution much faster than traditional MapReduce.
 
-Q2. Explain how Spark uses In-Memory Computing to speed up iterative machine learning algorithms compared to disk-based systems.
-Answer
-Spark stores intermediate computation results in RAM (memory) instead of writing them to disk after every operation. Machine Learning algorithms perform multiple 
-iterations on the same dataset. Since Spark keeps the data in memory, it avoids repeated disk reads and writes, resulting in much faster execution than MapReduce.
+---
 
+### Q5. Difference between `.na.drop()` and `.na.fill()`
+- **`.na.drop()`** removes rows that contain null values.
+- **`.na.fill()`** replaces null values with a specified value instead of removing the row.
+Example:
+```python
+df.na.fill({"status": "Unknown"}).show()
+```
 
-Q5. Difference between .na.drop() and .na.fill()
-Answer
-.na.drop() removes rows containing null values.
-.na.fill() replaces null values with a specified value instead of removing the rows.
-Example - # Replace null values in the status column with 'Unknown'
-            df.na.fill({"status": "Unknown"}).show()
+---
 
+### Q7. What is DataFrame Immutability?
+Spark DataFrames are immutable, which means they cannot be changed after they are created. Any operation like filtering, dropping columns, or renaming 
+columns creates a new DataFrame while keeping the original one unchanged.
 
-Q7. How does the immutability of Spark DataFrames affect data cleaning?
-Answer
-Spark DataFrames are immutable, meaning they cannot be modified after creation. Every transformation such as dropping columns,
-renaming columns, or filtering data creates a new DataFrame while leaving the original DataFrame unchanged.
+---
 
+### Q9. Why handle null values before aggregation?
+Null values can affect functions like `sum()`, `avg()`, `min()`, and `max()`, leading to inaccurate or incomplete results. Cleaning null values before 
+aggregation helps produce more reliable results.
 
-Q9. Why should null values be handled before aggregation?
-Answer
-Null values can affect mathematical calculations such as sum(), avg(), min(), and max(). They may produce incorrect or incomplete results. 
-Therefore, null values should be removed or replaced before performing aggregations to improve data quality and accuracy.
+---
 
-Q11. Explain Shuffle Process
-Answer
-A shuffle is the process of redistributing data across different partitions during operations such as groupBy(), join(), and reduceByKey().
-It is called a wide transformation because data moves between different partitions or worker nodes, increasing network communication and execution time.
+### Q11. What is Shuffle in Spark?
+Shuffle is the process of moving data between partitions during operations like `groupBy()`, `join()`, or `reduceByKey()`. It is called a **wide 
+transformation** because data is exchanged across partitions, which increases network communication and execution time.
 
-Q14. Risk of Using inferSchema=True
-Answer
-If the source data contains inconsistent or invalid date formats, inferSchema=True may incorrectly detect the data type or convert invalid values to NULL. 
-This can lead to schema mismatches, incorrect data interpretation, and errors during processing. For messy datasets, defining the schema manually is generally safer.
+---
+
+### Q14. Risk of using `inferSchema=True`
+If the dataset contains inconsistent or invalid values (especially dates), `inferSchema=True` may detect incorrect data types or convert values to `NULL`. 
+For messy datasets, defining the schema manually is usually a better option.
