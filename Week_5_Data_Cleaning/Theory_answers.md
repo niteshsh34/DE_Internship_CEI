@@ -6,7 +6,7 @@
 - Not suitable for iterative tasks like Machine Learning.
 - Requires more complex code.
 - Does not support real-time or interactive processing.
-- 
+  
 **Advantages of Spark**
 - Uses in-memory computing for faster execution.
 - Supports both batch and real-time processing.
