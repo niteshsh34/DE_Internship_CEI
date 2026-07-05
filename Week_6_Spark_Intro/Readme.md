@@ -2,6 +2,12 @@
 
 ## About the Dataset
 A sample sales dataset sales_data.csv containing **1,000 records** was used for this assignment
+- **1000** sales records
+- **5** product categories
+- **4** sales regions
+- **4** order statuses
+- Contains some **NULL user_id** values for filtering practice
+
 ### Columns
 - product_id
 - category
@@ -14,12 +20,6 @@ A sample sales dataset sales_data.csv containing **1,000 records** was used for 
 - old_name
 - user_id
 - order_date
-
-- **1000** sales records
-- **5** product categories
-- **4** sales regions
-- **4** order statuses
-- Contains some **NULL user_id** values for filtering practice
 
 ## Key Operations
 - Read CSV and Parquet files
