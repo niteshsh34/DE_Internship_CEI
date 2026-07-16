@@ -1,0 +1,301 @@
+product_id,product_name,category,price
+5001,Atomic Habits,Books,13687.43
+5002,Formal Shirt,Clothing,4452.46
+5003,Samsung Galaxy S24,Electronics,83626.26
+5004,Rich Dad Poor Dad,Books,9286.56
+5005,Levis Jeans,Clothing,112994.23
+5006,Dining Table,Home,104831.05
+5007,Python Crash Course,Books,11417.48
+5008,Nike Shoes,Clothing,32565.72
+5009,Sony Headphones,Electronics,19808.61
+5010,Boat Earbuds,Electronics,23845.91
+5011,Rich Dad Poor Dad,Books,15384.54
+5012,Kurta,Clothing,60290.29
+5013,Iphone 15,Electronics,6581.67
+5014,Kurta,Clothing,10581.79
+5015,Adidas T-Shirt,Clothing,119779.19
+5016,Deep Work,Books,13287.02
+5017,Samsung Galaxy S24,Electronics,26232.21
+5018,Formal Shirt,Clothing,61626.46
+5019,Hp Pavilion,Electronics,40574.83
+5020,Iphone 15,Electronics,92776.76
+5021,Levis Jeans,Clothing,97294.53
+5022,Rich Dad Poor Dad,Books,1440.28
+5023,Deep Work,Books,94665.29
+5024,Kurta,Clothing,20181.17
+5025,Office Chair,Home,110999.09
+5026,Water Bottle,Home,119675.66
+5027,Atomic Habits,Books,93544.34
+5028,Samsung Galaxy S24,Electronics,75074.9
+5029,Vacuum Cleaner,Home,86135.7
+5030,Led Lamp,Home,115895.1
+5031,Clean Code,Books,83287.34
+5032,Dining Table,Home,99919.93
+5033,Puma Jacket,Clothing,76825.5
+5034,Water Bottle,Home,63870.8
+5035,Samsung Galaxy S24,Electronics,94529.4
+5036,Office Chair,Home,70576.95
+5037,Puma Jacket,Clothing,112000.42
+5038,Lg Monitor,Electronics,47468.53
+5039,Vacuum Cleaner,Home,10588.75
+5040,Water Bottle,Home,100380.24
+5041,Dining Table,Home,72519
+5042,Canon Camera,Electronics,72630.14
+5043,Clean Code,Books,25756.79
+5044,Vacuum Cleaner,Home,74370.27
+5045,Mixer Grinder,Home,32630.52
+5046,Deep Work,Books,96884.71
+5047,Hp Pavilion,Electronics,5126.37
+5048,Puma Jacket,Clothing,114931.19
+5049,Office Chair,Home,106799.26
+5050,Python Crash Course,Books,114700.68
+5051,Adidas T-Shirt,Clothing,1235.66
+5052,Nike Shoes,Clothing,54630.3
+5053,Water Bottle,Home,12243.73
+5054,Clean Code,Books,107272.03
+5055,Atomic Habits,Books,39836.13
+5056,Mixer Grinder,Home,79390.52
+5057,Rich Dad Poor Dad,Books,7303.42
+5058,Deep Work,Books,117147.39
+5059,Samsung Galaxy S24,Electronics,53810.88
+5060,Kurta,Clothing,55146.38
+5061,Vacuum Cleaner,Home,114364.12
+5062,Office Chair,Home,110172.41
+5063,Lg Monitor,Electronics,70810.15
+5064,Water Bottle,Home,35046.88
+5065,Lg Monitor,Electronics,48996.44
+5066,Lg Monitor,Electronics,116953.98
+5067,Water Bottle,Home,39005.62
+5068,Atomic Habits,Books,41767.34
+5069,Adidas T-Shirt,Clothing,105305.65
+5070,Levis Jeans,Clothing,20605.69
+5071,Dining Table,Home,116581.73
+5072,Water Bottle,Home,37232.01
+5073,Clean Code,Books,111376.48
+5074,Atomic Habits,Books,43510.7
+5075,Vacuum Cleaner,Home,56785.86
+5076,Hp Pavilion,Electronics,74784.63
+5077,The Alchemist,Books,107108.61
+5078,Dell Laptop,Electronics,64351.16
+5079,Atomic Habits,Books,43624.56
+5080,Rich Dad Poor Dad,Books,102191.83
+5081,Boat Earbuds,Electronics,1557.7
+5082,Mixer Grinder,Home,43272.32
+5083,Nike Shoes,Clothing,11704.04
+5084,The Alchemist,Books,36937.64
+5085,Kurta,Clothing,83088.08
+5086,Deep Work,Books,94800.96
+5087,Vacuum Cleaner,Home,96717.04
+5088,Office Chair,Home,17338.8
+5089,The Alchemist,Books,34755.83
+5090,Levis Jeans,Clothing,110957.13
+5091,Iphone 15,Electronics,80187.28
+5092,Deep Work,Books,87491.23
+5093,Adidas T-Shirt,Clothing,101983.54
+5094,Formal Shirt,Clothing,34020.23
+5095,Lg Monitor,Electronics,15883.76
+5096,Rich Dad Poor Dad,Books,85485.71
+5097,Led Lamp,Home,26980.44
+5098,Sony Headphones,Electronics,116982.74
+5099,Sony Headphones,Electronics,62144.76
+5100,Sony Headphones,Electronics,55009.8
+5101,Puma Jacket,Clothing,7233.16
+5102,Rich Dad Poor Dad,Books,96913.93
+5103,Canon Camera,Electronics,27052.85
+5104,Mixer Grinder,Home,27750.29
+5105,Levis Jeans,Clothing,97076.08
+5106,Hp Pavilion,Electronics,3550.44
+5107,Vacuum Cleaner,Home,114549.22
+5108,Water Bottle,Home,13618.58
+5109,Rich Dad Poor Dad,Books,49172.01
+5110,Sony Headphones,Electronics,39631.61
+5111,Dining Table,Home,69136.06
+5112,Deep Work,Books,105664.54
+5113,Clean Code,Books,22911.17
+5114,Clean Code,Books,23425.82
+5115,Canon Camera,Electronics,94859.99
+5116,Levis Jeans,Clothing,90702.12
+5117,Water Bottle,Home,2896.24
+5118,Samsung Galaxy S24,Electronics,50237.09
+5119,Led Lamp,Home,19763.13
+5120,Mixer Grinder,Home,5452.35
+5121,Kurta,Clothing,107893.28
+5122,Atomic Habits,Books,102996.42
+5123,Vacuum Cleaner,Home,10066.49
+5124,Mixer Grinder,Home,98656.03
+5125,Nike Shoes,Clothing,30260.88
+5126,Clean Code,Books,78811.18
+5127,Kurta,Clothing,97824.02
+5128,The Alchemist,Books,19440.46
+5129,Clean Code,Books,13468.82
+5130,Atomic Habits,Books,99662.88
+5131,Canon Camera,Electronics,24594.48
+5132,Sony Headphones,Electronics,67216.17
+5133,Deep Work,Books,108501.12
+5134,Hp Pavilion,Electronics,42647.71
+5135,Samsung Galaxy S24,Electronics,15280.01
+5136,Puma Jacket,Clothing,70326.62
+5137,Atomic Habits,Books,86344.61
+5138,Clean Code,Books,80796.56
+5139,Kurta,Clothing,83090.05
+5140,Rich Dad Poor Dad,Books,109096.85
+5141,Atomic Habits,Books,96027.46
+5142,Nike Shoes,Clothing,94598.18
+5143,Kurta,Clothing,77786.21
+5144,Nike Shoes,Clothing,24135.92
+5145,Iphone 15,Electronics,48327.63
+5146,Kurta,Clothing,66808.88
+5147,Python Crash Course,Books,56229.64
+5148,Atomic Habits,Books,105897.4
+5149,Dell Laptop,Electronics,63562.75
+5150,Dining Table,Home,114822.4
+5151,Atomic Habits,Books,3710.99
+5152,Samsung Galaxy S24,Electronics,79424.28
+5153,Vacuum Cleaner,Home,1064.72
+5154,Nike Shoes,Clothing,60914.98
+5155,Clean Code,Books,78059.48
+5156,Kurta,Clothing,13381.53
+5157,Sony Headphones,Electronics,10677.82
+5158,Nike Shoes,Clothing,32988.73
+5159,Mixer Grinder,Home,72830.3
+5160,Office Chair,Home,9138.2
+5161,Hp Pavilion,Electronics,54756.46
+5162,Rich Dad Poor Dad,Books,25417.46
+5163,Iphone 15,Electronics,86042.99
+5164,Dell Laptop,Electronics,51778.22
+5165,Dell Laptop,Electronics,35309.95
+5166,Water Bottle,Home,94554.28
+5167,Dining Table,Home,11501.85
+5168,Clean Code,Books,78534.08
+5169,Rich Dad Poor Dad,Books,119312.69
+5170,Mixer Grinder,Home,1727.26
+5171,Sony Headphones,Electronics,106371.02
+5172,Dining Table,Home,93029.24
+5173,Dining Table,Home,12716.76
+5174,Vacuum Cleaner,Home,44150.01
+5175,Canon Camera,Electronics,63780.57
+5176,Puma Jacket,Clothing,62331.61
+5177,Hp Pavilion,Electronics,90645.31
+5178,Boat Earbuds,Electronics,14331.9
+5179,Formal Shirt,Clothing,82472.44
+5180,Vacuum Cleaner,Home,30966.92
+5181,Samsung Galaxy S24,Electronics,25224.51
+5182,Led Lamp,Home,77248.73
+5183,Kurta,Clothing,8291.64
+5184,Python Crash Course,Books,87592.35
+5185,Samsung Galaxy S24,Electronics,17196.52
+5186,Canon Camera,Electronics,61306.4
+5187,Vacuum Cleaner,Home,12145.65
+5188,Vacuum Cleaner,Home,82788.95
+5189,The Alchemist,Books,103377.72
+5190,Python Crash Course,Books,24845.29
+5191,Clean Code,Books,25183.26
+5192,Water Bottle,Home,75042.83
+5193,Nike Shoes,Clothing,19090.57
+5194,Water Bottle,Home,5621.88
+5195,Atomic Habits,Books,7009.9
+5196,Water Bottle,Home,70102.22
+5197,Samsung Galaxy S24,Electronics,32308.96
+5198,Levis Jeans,Clothing,86758.57
+5199,Levis Jeans,Clothing,30309.77
+5200,Office Chair,Home,13509.97
+5201,Adidas T-Shirt,Clothing,45785.64
+5202,Hp Pavilion,Electronics,106411.67
+5203,Python Crash Course,Books,107160.64
+5204,Dining Table,Home,79686.75
+5205,Office Chair,Home,56789.72
+5206,Atomic Habits,Books,66702.53
+5207,Atomic Habits,Books,58272.74
+5208,Adidas T-Shirt,Clothing,7426.61
+5209,Nike Shoes,Clothing,53353.56
+5210,Levis Jeans,Clothing,8721.3
+5211,Puma Jacket,Clothing,67610.16
+5212,Atomic Habits,Books,51907.75
+5213,Hp Pavilion,Electronics,61331.48
+5214,Office Chair,Home,57360.37
+5215,Deep Work,Books,15938.21
+5216,The Alchemist,Books,24759.17
+5217,Dining Table,Home,118104.27
+5218,Python Crash Course,Books,1453.94
+5219,Canon Camera,Electronics,4011.36
+5220,Puma Jacket,Clothing,16844.95
+5221,Office Chair,Home,106453.74
+5222,Water Bottle,Home,102926.19
+5223,Kurta,Clothing,71815.17
+5224,Canon Camera,Electronics,4453.63
+5225,Clean Code,Books,36637.58
+5226,Led Lamp,Home,8087.88
+5227,Dell Laptop,Electronics,113815.27
+5228,Nike Shoes,Clothing,61471.6
+5229,The Alchemist,Books,74603.25
+5230,Adidas T-Shirt,Clothing,24348.69
+5231,Python Crash Course,Books,115351.23
+5232,Dining Table,Home,41278.25
+5233,Sony Headphones,Electronics,28726.2
+5234,Dell Laptop,Electronics,31052.99
+5235,Deep Work,Books,85451.26
+5236,Levis Jeans,Clothing,14596.22
+5237,Clean Code,Books,119817.45
+5238,Formal Shirt,Clothing,90430.72
+5239,Adidas T-Shirt,Clothing,9764.99
+5240,Deep Work,Books,68484.84
+5241,Adidas T-Shirt,Clothing,32381.8
+5242,Atomic Habits,Books,109785.9
+5243,Iphone 15,Electronics,8603.58
+5244,Adidas T-Shirt,Clothing,63596.53
+5245,Water Bottle,Home,61609.41
+5246,Canon Camera,Electronics,79025.97
+5247,Led Lamp,Home,23243.3
+5248,Boat Earbuds,Electronics,21905.83
+5249,Water Bottle,Home,44047.24
+5250,Water Bottle,Home,84169.66
+5251,Canon Camera,Electronics,39474.25
+5252,Canon Camera,Electronics,81400.9
+5253,Puma Jacket,Clothing,94315.04
+5254,Puma Jacket,Clothing,116520.08
+5255,Deep Work,Books,108025.9
+5256,Levis Jeans,Clothing,43257.45
+5257,Python Crash Course,Books,26824.95
+5258,Levis Jeans,Clothing,61259.59
+5259,Rich Dad Poor Dad,Books,9473.59
+5260,Python Crash Course,Books,42778.37
+5261,Python Crash Course,Books,57882.25
+5262,Dell Laptop,Electronics,14189.52
+5263,Led Lamp,Home,76205.22
+5264,Levis Jeans,Clothing,36206.41
+5265,Office Chair,Home,72194.97
+5266,Hp Pavilion,Electronics,71522.44
+5267,The Alchemist,Books,3632.67
+5268,Dell Laptop,Electronics,29983.13
+5269,Adidas T-Shirt,Clothing,108088.45
+5270,Nike Shoes,Clothing,10034.38
+5271,Hp Pavilion,Electronics,40342.53
+5272,Mixer Grinder,Home,89740.5
+5273,Mixer Grinder,Home,10208.71
+5274,Levis Jeans,Clothing,74942.75
+5275,Office Chair,Home,87493.26
+5276,Led Lamp,Home,22728.96
+5277,Dell Laptop,Electronics,50824.79
+5278,Water Bottle,Home,37468.84
+5279,Canon Camera,Electronics,70408.01
+5280,Kurta,Clothing,56292.05
+5281,Formal Shirt,Clothing,79665.06
+5282,Clean Code,Books,112040.79
+5283,Nike Shoes,Clothing,54959.15
+5284,Led Lamp,Home,64048.28
+5285,Iphone 15,Electronics,2967.29
+5286,Office Chair,Home,82991.3
+5287,Adidas T-Shirt,Clothing,37439.79
+5288,Office Chair,Home,27273.42
+5289,Water Bottle,Home,115051.33
+5290,Vacuum Cleaner,Home,86584.61
+5291,Sony Headphones,Electronics,6031.69
+5292,Adidas T-Shirt,Clothing,75588.15
+5293,Puma Jacket,Clothing,38571.51
+5294,Water Bottle,Home,63582.01
+5295,Samsung Galaxy S24,Electronics,74905.25
+5296,Deep Work,Books,96452.73
+5297,Puma Jacket,Clothing,57306.08
+5298,The Alchemist,Books,53704.34
+5299,Led Lamp,Home,92332.41
+5300,Boat Earbuds,Electronics,103005.86

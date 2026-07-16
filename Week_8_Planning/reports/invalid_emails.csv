@@ -1,0 +1,25 @@
+customer_id,name,email,city,customer_type,signup_date
+100033,Rayaan Bhavsar,rayaanbhavsar248gmail.com,Kolkata,REGULAR,6/14/2026
+100034,Nicholas Choudhary,nicholaschoudhary298gmail.com,Ahmedabad,REGULAR,11/15/2023
+100110,Sanaya Aggarwal,sanayaaggarwal474gmail.com,Lucknow,REGULAR,7/26/2023
+100128,Wahab Jha,wahabjha466gmail.com,Hyderabad,VIP,6/9/2023
+100142,Meera Bakshi,meerabakshi833gmail.com,Kolkata,PREMIUM,2/24/2023
+100155,Shravya Devi,shravyadevi146gmail.com,Jaipur,REGULAR,2/2/2025
+100197,Isaiah Buch,isaiahbuch511gmail.com,Ahmedabad,VIP,3/29/2026
+100207,Azaan Roy,azaanroy625gmail.com,Lucknow,REGULAR,7/4/2023
+100239,Nilima Prabhu,nilimaprabhu314gmail.com,Kolkata,VIP,4/3/2023
+100260,Reyansh Barman,reyanshbarman114gmail.com,Pune,PREMIUM,1/18/2026
+100352,Ucchal Bandi,ucchalbandi529gmail.com,Bengaluru,VIP,7/25/2022
+100433,Vansha Rajan,vansharajan503gmail.com,Bengaluru,REGULAR,8/16/2025
+100543,Irya Chopra,iryachopra923gmail.com,Pune,PREMIUM,8/6/2024
+100560,Lopa Shetty,lopashetty665gmail.com,Lucknow,REGULAR,12/11/2023
+100568,Naksh Viswanathan,nakshviswanathan217gmail.com,Lucknow,REGULAR,9/3/2023
+100574,Amaira Wali,amairawali888gmail.com,Lucknow,VIP,7/27/2024
+100627,Yashoda Bhagat,yashodabhagat115gmail.com,Lucknow,REGULAR,3/21/2025
+100657,Pallavi Tata,pallavitata576gmail.com,Bengaluru,REGULAR,6/8/2025
+100672,Ranbir Kapadia,ranbirkapadia332gmail.com,Chennai,REGULAR,3/24/2025
+100728,Sara Iyer,saraiyer257gmail.com,Chennai,REGULAR,1/31/2026
+100842,Bishakha Iyer,bishakhaiyer149gmail.com,Bengaluru,REGULAR,5/10/2025
+100843,Nidra Saxena,nidrasaxena906gmail.com,Hyderabad,VIP,4/30/2023
+100891,Qadim Apte,qadimapte755gmail.com,Hyderabad,REGULAR,10/13/2023
+100898,Jasmit Sabharwal,jasmitsabharwal191gmail.com,Bengaluru,REGULAR,11/18/2022
