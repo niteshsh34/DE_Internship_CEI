@@ -109,7 +109,6 @@ The child-company Gold tables include:
 -   `sb_dim_products`
 -   `sb_dim_gross_price`
 -   `sb_fact_orders`
-
 -   `dim_date` This table is generated and provides a complete calendar with every month, including months where `no` orders occurred 
 ------------------------------------------------------------------------
 # Prerequisites
@@ -158,24 +157,11 @@ This prevents the same source file from being processed repeatedly.
 # Step 2: Run Setup Notebooks
 Run the notebooks inside `1_codes/1_setup/`.
 ## `setup_catalog.ipynb`
-Creates or configures the required catalog and schemas used by theproject.
-Typical logical structure:
-
-``` text
-fmcg
-├── bronze
-├── silver
-└── gold
-```
+Creates or configures the required catalog and schemas used by the project.
 ## `utilities.ipynb`
-Contains reusable project configuration and variables, such as:
-``` python
-bronze_schema
-silver_schema
-gold_schema
-```
+Contains reusable project configuration and variables
+
 The processing notebooks load these utilities using `%run`.
-If the workspace path in `%run` is user-specific, update it before running the project.
 
 ## `dim_date_table_creation.ipynb`
 Creates the Date dimension used for consistent time-based analysis.
@@ -185,7 +171,6 @@ provides a complete time structure, including months with no sales, which is use
 ------------------------------------------------------------------------
 
 # Step 3: Process Dimension / Master Data
-
 Before processing Orders, prepare the dimension/master datasets.
 A recommended dependency order is:
 ``` text
