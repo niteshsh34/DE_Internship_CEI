@@ -60,7 +60,8 @@ The parent company's own ingestion pipeline is outside the scope of this project
     └── 2_incremental_load_fact.ipynb
 
 2_dashboarding/
-resources/
+    |
+    └── denormalise_table_query_fmcg_for_dashboard
 ```
 
 ------------------------------------------------------------------------
