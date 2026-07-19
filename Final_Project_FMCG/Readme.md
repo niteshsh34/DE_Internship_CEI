@@ -17,10 +17,10 @@ The parent company's own ingestion pipeline is outside the scope of this project
 ## Technologies Used
 
 -   Databricks
--   Apache Spark / PySpark
+-   Apache Spark ( PySpark )
 -   Delta Lake
 -   AWS S3
--   Spark SQL / SQL
+-   SQL
 -   Databricks Workflows / Jobs
 -   Unity Catalog
 
@@ -62,6 +62,8 @@ The parent company's own ingestion pipeline is outside the scope of this project
 2_dashboarding/
     |
     └── denormalise_table_query_fmcg_for_dashboard
+
+screenshots/
 ```
 
 ------------------------------------------------------------------------
