@@ -12,6 +12,8 @@ The child company provides customer, product, gross price, and order data. The p
 
 The parent company's own ingestion pipeline is outside the scope of this project. The project assumes that the parent Gold tables already exist.
 
+Also created a [Star Schema](https://github.com/niteshsh34/DE_Internship_CEI/blob/main/Final_Project_FMCG/Screenshots/Star_schema.png) for the project. You can check it out here.
+
 ------------------------------------------------------------------------
 
 ## Technologies Used
@@ -123,7 +125,7 @@ Before running the project, ensure you have:
 ------------------------------------------------------------------------
 
 # Step 1: Configure AWS S3
-Create an S3 bucket for the project. The example project uses:
+Create an S3 bucket for the project. The project uses:
 ``` text
 s3://de-project-fmcg/
 ```
@@ -373,7 +375,7 @@ If only new Orders arrive:
 Incremental Orders
 ```
 If new master data also arrives, process the relevant dimension data
-first. For example:
+first.
 
 ``` text
 Customers
@@ -384,8 +386,6 @@ Gross Price
     |
 Incremental Orders
 ```
-
-This ensures Orders always has access to the latest required product mappings.
 
 # Dashboarding
 
