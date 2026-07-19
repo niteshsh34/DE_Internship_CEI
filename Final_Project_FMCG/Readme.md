@@ -166,8 +166,8 @@ The processing notebooks load these utilities using `%run`.
 ## `dim_date_table_creation.ipynb`
 Creates the Date dimension used for consistent time-based analysis.
 The Date dimension provides a complete time structure, including months with no sales, making it useful for monthly reporting and trend analysis.
-------------------------------------------------------------------------
 
+------------------------------------------------------------------------
 # Step 3: Process Dimension / Master Data
 Before processing Orders, prepare the dimension/master datasets.
 A recommended dependency order is:
