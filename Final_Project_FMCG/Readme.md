@@ -383,3 +383,18 @@ Incremental Orders
 ```
 
 This ensures Orders always has access to the latest required product mappings.
+
+# Dashboarding
+
+For dashboarding and reporting, a denormalized SQL view called `vw_fact_orders_enriched` is created in the Gold layer.
+
+The view combines the `fact_orders` table with the Date, Customer, Product, and Gross Price dimension tables to provide a single business-friendly dataset.
+It contains information such as:
+
+- Date, Month, Quarter, and Year
+- Customer, Market, Platform, and Channel
+- Product, Category, Division, and Variant
+- Sold Quantity and Product Price
+- Total Sales Amount (`sold_quantity × price_inr`)
+
+This enriched view is used as the data source for the dashboard, making it easier to create KPIs and visualizations such as total sales, monthly sales trends, product-wise sales, category-wise sales, and customer-wise sales without repeatedly writing complex joins in the dashboard layer.
