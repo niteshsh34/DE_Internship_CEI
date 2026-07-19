@@ -165,9 +165,7 @@ The processing notebooks load these utilities using `%run`.
 
 ## `dim_date_table_creation.ipynb`
 Creates the Date dimension used for consistent time-based analysis.
-
-Although Orders contains transaction dates, the Orders table only contains dates/months where transactions exist. The Date dimension
-provides a complete time structure, including months with no sales, which is useful for monthly reporting and trend analysis.
+The Date dimension provides a complete time structure, including months with no sales, making it useful for monthly reporting and trend analysis.
 ------------------------------------------------------------------------
 
 # Step 3: Process Dimension / Master Data
@@ -374,15 +372,4 @@ Incremental Orders
 
 # Dashboarding
 
-For dashboarding and reporting, a denormalized SQL view called `vw_fact_orders_enriched` is created in the Gold layer.
-
-The view combines the `fact_orders` table with the Date, Customer, Product, and Gross Price dimension tables to provide a single business-friendly dataset.
-It contains information such as:
-
-- Date, Month, Quarter, and Year
-- Customer, Market, Platform, and Channel
-- Product, Category, Division, and Variant
-- Sold Quantity and Product Price
-- Total Sales Amount (`sold_quantity × price_inr`)
-
-This enriched view is used as the data source for the dashboard, making it easier to create KPIs and visualizations such as total sales, monthly sales trends, product-wise sales, category-wise sales, and customer-wise sales without repeatedly writing complex joins in the dashboard layer.
+A denormalized SQL view, vw_fact_orders_enriched, is created in the Gold layer by combining Orders, Date, Customer, Product, and Pricing data. It provides a business-ready dataset for creating dashboard KPIs and visualizations without writing complex joins repeatedly.
